@@ -41,6 +41,10 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
 Route::group(['middleware' => ['auth:sanctum', 'role:administrator']], function () {
     Route::post('/register', [AuthController::class, 'register']);
     Route::resource('/employees', EmployeeController::class);
+    /*
+     * request exemple with filters in get orders
+     * http://localhost:8000/api/orders?table_id=1&date=2021-07-28T12:00:00-03:00&dateFilter=month&client_id=1
+    */
     Route::resource('/orders', OrderController::class);
 });
 
