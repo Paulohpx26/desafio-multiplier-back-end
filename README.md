@@ -1,28 +1,4 @@
-# Desafio Multiplier Laravel API
-
-## Running Locally
-
-```sh
-# install dependencies
-composer install
-
-# run migrates
-php artisan migrate
-
-# run seeders
-php artisan db:seed
-
-# start the server
-php artisan serve
-```
-
-Por padrão todos os funcionários possuem a senha: "123456", sendo o primeiro usuário administrador, 
-do segunda até o decimo garçom e os 5 demais cozinheiros.
-
-<p align="center">
-  <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
-</p>
-
+# Manter desafio como privado!
 
 # Desafio Back-end Multiplier
 
